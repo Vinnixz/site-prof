@@ -6,7 +6,7 @@
 </head>
 <body>
     <header>
-        <h1>Grupo de Trabalho</h1>
+        <h1>Grupo de Trabalhos</h1>
     </header>
 
     <section>
