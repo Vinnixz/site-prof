@@ -1,0 +1,36 @@
+/* Definindo um estilo de fundo para o corpo da página */
+body {
+    background-color: #3498db; /* Azul claro */
+    color: #fff; /* Texto branco */
+    font-family: Arial, sans-serif; /* Fonte do texto */
+}
+
+/* Estilizando o cabeçalho (título) */
+header {
+    background-color: #2980b9; /* Azul escuro */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px; /* Tamanho da fonte */
+}
+
+/* Estilizando as seções */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; /* Fundo branco */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    color: black;
+}
+
+section h2 {
+    color: #2980b9; /* Azul escuro */
+}
+
+/* Estilizando as listas */
+ul {
+  color: black;
+}
