@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Grupo de Trabalho</title>
+    <title>Trabalho em grupo</title>
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
