@@ -1,0 +1,46 @@
+body {
+    background-color: #f5f5f5; /* Cinza claro de fundo */
+    color: #333; /* Cor do texto escura */
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #fff; /* Fundo branco para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333; /* Cor do título escura */
+}
+
+section {
+    background-color: #fff; /* Fundo branco para as seções */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    color: #333; /* Cor do texto escura */
+}
+
+section h2 {
+    color: #333; /* Cor do título escura */
+}
+
+footer {
+    background-color: #fff; /* Fundo branco para o rodapé */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para links */
+a {
+    color: #3498db; /* Cor azul para links */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhar link ao passar o mouse sobre ele */
+    color: #1f6ac0; /* Cor azul mais escura ao passar o mouse sobre o link */
+}

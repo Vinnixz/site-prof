@@ -31,7 +31,7 @@
     </section>
 
     <footer>
-        <p>Você também pode nos enviar um e-mail diretamente em grupo@email.com.</p>
+        <p>Você também pode nos enviar um e-mail diretamente em marvcosta04@gmail.com.</p>
     </footer>
 </body>
 </html>

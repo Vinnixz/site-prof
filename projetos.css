@@ -1,0 +1,27 @@
+/* Estilo geral para a página */
+body {
+    background-color: #f5f5f5; /* Cinza claro de fundo */
+    color: #333; /* Cor do texto escura */
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo para o cabeçalho */
+header {
+    background-color: #fff; /* Fundo branco para o cabeçalho */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333; /* Cor do título escura */
+}
+
+/* Estilo para seções de conteúdo */
+section {
+    background-color: #fff; /* Fundo branco para as seções de conteúdo */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+
