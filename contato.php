@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Contato</title>
-  <link rel="stylesheet" type="text/css" href="style2.css">
+  <link rel="stylesheet" type="text/css" href="contato.css">
 </head>
 <body>
     <header>

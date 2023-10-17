@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Grupo de Trabalho</title>
-   <link rel="stylesheet" type="text/css" href="estilo.css">
+   <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <header>
