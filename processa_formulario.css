@@ -1,46 +1,43 @@
 body {
-    background-color: #f5f5f5; /* Cinza claro de fundo */
-    color: #333; /* Cor do texto escura */
+    background-color: #f5f5f5; 
+    color: #333;
     font-family: Arial, sans-serif;
 }
 
 header {
-    background-color: #fff; /* Fundo branco para o cabeçalho */
+    background-color: #fff; 
     padding: 20px;
     text-align: center;
 }
 
 header h1 {
     font-size: 36px;
-    color: #333; /* Cor do título escura */
-}
+    color: #333; 
 
 section {
-    background-color: #fff; /* Fundo branco para as seções */
+    background-color: #fff;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    color: #333; /* Cor do texto escura */
+    color: #333;
 }
 
 section h2 {
-    color: #333; /* Cor do título escura */
+    color: #333; 
 }
 
 footer {
-    background-color: #fff; /* Fundo branco para o rodapé */
+    background-color: #fff; 
     padding: 20px;
     text-align: center;
 }
 
-/* Estilos para links */
 a {
-    color: #3498db; /* Cor azul para links */
+    color: #3498db; 
     text-decoration: none;
 }
 
 a:hover {
-    text-decoration: underline; /* Sublinhar link ao passar o mouse sobre ele */
-    color: #1f6ac0; /* Cor azul mais escura ao passar o mouse sobre o link */
-}
+    text-decoration: underline; 
+    color: #1f6ac0; 
