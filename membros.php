@@ -17,23 +17,26 @@
     <section>
         <h2>Equipe de Trabalho</h2>
         <ul>
-            <li>
-                <h3>Nome do Membro 1</h3>
-                <p>Nome do Membro 1 é um desenvolvedor web experiente com forte conhecimento em PHP, HTML, CSS e JavaScript. Ele desempenha um papel fundamental na criação e manutenção de nossos sites.</p>
-            </li>
-            <li>
-                <h3>Nome do Membro 2</h3>
-                <p>Nome do Membro 2 é um designer gráfico criativo e talentoso. Suas habilidades de design são essenciais na criação de interfaces de usuário atraentes e experiências de usuário excepcionais.</p>
-            </li>
-            <li>
-                <h3>Nome do Membro 3</h3>
-                <p>Nome do Membro 3 é um gerente de projeto experiente. Ele lidera nossas equipes com eficiência, garantindo que os projetos sejam entregues dentro do prazo e dentro do orçamento.</p>
-            </li>
-            <!-- Adicione mais membros conforme necessário -->
+            <?php
+            // Defina uma matriz com informações sobre os membros da equipe
+            $equipe = array(
+                array("Marcos Vinicius Dias Costa", "Ra: 1734941631", "desenvolvedor web experiente com forte conhecimento em PHP, HTML, CSS e JavaScript. Ele desempenha um papel fundamental na criação e manutenção de nossos sites."),
+                array("Fellipe De Oliveira Aragao", "RA:1735826428", "designer gráfico criativo e talentoso. Suas habilidades de design são essenciais na criação de interfaces de usuário atraentes e experiências de usuário excepcionais."),
+                array("Matheus Alcântara Dos Santos" , "RA:1735504374","gerente de projeto experiente. Ele lidera nossas equipes com eficiência, garantindo que os projetos sejam entregues dentro do prazo e dentro do orçamento."),
+                array("Maria Eduarda Souza De Albuquerque", "Ra: 35495448","analista de dados com experiência em análisar e interpretar dados estatísticos. Ele trabalha com técnicas de mineração de dados, análise de dados e gerenciamento de banco de dados.")
+            );
+
+            // Loop para exibir informações da equipe
+            foreach ($equipe as $membro) {
+                echo "<li>";
+                echo "<h3>" . $membro[0] . "</br>". $membro [1] ."</h3>";
+                echo "<p>" . $membro[2] . "</p>";
+                echo "</li>";
+            }
+            ?>
         </ul>
     </section>
-
-    <footer>
+<footer>
         <p>Para voltar à página principal, <a href="index.php">clique aqui</a>.</p>
     </footer>
 </body>
