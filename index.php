@@ -20,9 +20,6 @@
           <p>Clique na caixa branca para saber mais sobre nossos projetos.</p>
           <ul>
               <li class="projeto" onclick="redirecionarParaTrabalho()">Projeto 1: Site criado para o professor</li>
-              <li class="projeto" onclick="redirecionarParaTrabalho()">Projeto 2: Descrição do Projeto 2</li>
-              <li class="projeto" onclick="redirecionarParaTrabalho()">Projeto 3: Descrição do Projeto 3</li>
-              <!-- Adicione mais projetos conforme necessário -->
           </ul>
       </section>
       
@@ -30,10 +27,11 @@
           <h2><a href="membros.php">Membros</a></h2>
           <p>Clique na caixa branca para saber mais sobre nossos membros.</p>
           <ul>
-              <li class="membro" onclick="redirecionarParaMembros()">Membro 1: Marcos Vinicius</li>
+              <li class="membro" onclick="redirecionarParaMembros()">Membro 1: Marcos Vinicius Dias Costa</li>
               <li class="membro" onclick="redirecionarParaMembros()">Membro 2: Nome do Membro 2</li>
               <li class="membro" onclick="redirecionarParaMembros()">Membro 3: Nome do Membro 3</li>
-              <!-- Adicione mais membros conforme necessário -->
+            <li class="membro" onclick="redirecionarParaMembros()">Membro 3: Nome do Membro 3</li>
+              
           </ul>
       </section>
 
