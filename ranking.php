@@ -43,8 +43,11 @@
             // Adicione mais séries de comédia aqui
         ],
         "romance" => [
-            "Outlander",
-            "Série de Romance 2",
+            "SexLife <br><br> <img src='sexlife.jpg'>",
+            //"Bridgerton",
+            //"Emily um Paris",
+            //"Jane the Virgin",
+            //"bates motelGirlmore Girls",
             // Adicione mais séries de romance aqui
         ],
         "humor" => [
@@ -53,8 +56,11 @@
             // Adicione mais séries de humor aqui
         ],
         "anime" => [
-            "Série de Anime 1",
-            "Série de Anime 2",
+            "One Piece <br><br> <img src='onepiece.jpg'>",
+            "Death Note <br><br> <img src='deathnote.jpg'>",
+            "Jujutsu Kaisen <br><br> <img src='jujutsokaisen.jpg'>",
+            "Cowboy Bebop <br><br> <img src='cowboy.jpg'>",
+            "JoJo's Bizarre Adventure <br><br> <img src='jojo.jpg'>",
             // Adicione mais séries de anime aqui
         ]
     ];
