@@ -1,37 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Contato</title>
-  <link rel="stylesheet" type="text/css" href="contato.css">
+    <title>Trabalho em grupo</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
     <header>
-        <h1>Entre em Contato</h1>
+        <h1>Grupo de Trabalho</h1>
     </header>
 
     <section>
-        <h2>Informações de Contato</h2>
-        <p>Você pode entrar em contato conosco preenchendo o formulário abaixo:</p>
+        <h2>Sobre o Grupo</h2>
+        <p>O nosso grupo de trabalho é uma equipe dedicada e comprometida com a realização de projetos e tarefas comuns. Trabalhamos juntos para alcançar nossos objetivos e metas. O grupo é composto por membros talentosos e diversificados, cada um contribuindo com suas habilidades e conhecimentos.</p>
     </section>
 
-    <section>
-        <h2>Formulário de Contato</h2>
-        <form method="POST" action="processa_formulario.php">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required><br>
+    <div class="container">
+        <section class="projetos">
+            <h2><a href="projetos.php">Projetos</a></h2>
+            <p>Clique na caixa branca para saber mais sobre nossos projetos.</p>
+            <ul>
+                <li class="projeto" onclick="redirecionarParaTrabalho()">Projeto 1: Site criado para o professor</li>
+            </ul>
+        </section>
 
-            <label for="email">E-mail:</label>
-            <input type="email" id="email" name="email" required><br>
-
-            <label for="mensagem">Mensagem:</label>
-            <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br>
-
-            <input type="submit" value="Enviar">
-        </form>
-    </section>
+        <section class="membros">
+            <h2><a href="membros.php">Membros</a></h2>
+            <p>Clique na caixa branca para saber mais sobre nossos membros.</p>
+            <ul>
+                <li class="membro" onclick="redirecionarParaMembros()">Membro 1: Marcos Vinicius Dias Costa</li>
+                <li class="membro" onclick="redirecionarParaMembros()">Membro 2: Fellipe De Oliveira Aragao</li>
+                <li class="membro" onclick="redirecionarParaMembros()">Membro 3: Matheus Alcântara Dos Santos</li>
+                <li class "membro" onclick="redirecionarParaMembros()">Membro 4: Maria Eduarda Souza De Albuquerque</li>
+            </ul>
+        </section>
+    </div>
 
     <footer>
-        <p>Você também pode nos enviar um e-mail diretamente em marvcosta04@gmail.com.</p>
+        <p>Para entrar em contato com o nosso grupo de trabalho, <a href="contato.php">clique aqui</a> ou envie um e-mail para marvcosta04@gmail.com.</p>
     </footer>
 </body>
 </html>
