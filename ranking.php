@@ -35,11 +35,11 @@
             // Adicione mais séries de terror aqui
         ],
         "comedia" => [
-            "Brooklyn Nine-Nine <br><br> <img src='brooklyn.jpeg'>",
-            //"The Marvelous Mrs. Maisel",
-            //"Parks and Recreation",
-            //"The Office",
-            //"Friends",
+            "Brooklyn Nine-Nine <br><br> <img src='brooklyn.jpg'>",
+            "The Marvelous Mrs. Maisel <br><br> <img src='marvelous.jpg'>",
+            //"Parks and Recreation <br><br> <img src=''>",
+            //"The Office <br><br> <img src='theoffice.jpg'>",
+            //"Friends <br><br> <img src=''>",
             // Adicione mais séries de comédia aqui
         ],
         "romance" => [
@@ -69,7 +69,7 @@
             echo "<p>Recomendamos a série de $generoSelecionado: <strong>$serieSorteada</strong></p>";
         }
     }
-    ?>
+    ? > 
       <footer>
           <p>Para voltar à página principal, <a href="index.php">clique aqui</a>.</p>
       </footer>
