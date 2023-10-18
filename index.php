@@ -15,26 +15,24 @@
     </section>
 
     <div class="container">
-      <section class="projetos">
-          <h2><a href="projetos.php">Projetos</a></h2>
-          <p>Clique na caixa branca para saber mais sobre nossos projetos.</p>
-          <ul>
-              <li class="projeto" onclick="redirecionarParaTrabalho()">Projeto 1: Site criado para o professor</li>
-          </ul>
-      </section>
-      
-      <section class="membros">
-          <h2><a href="membros.php">Membros</a></h2>
-          <p>Clique na caixa branca para saber mais sobre nossos membros.</p>
-          <ul>
-              <li class="membro" onclick="redirecionarParaMembros()">Membro 1: Marcos Vinicius Dias Costa</li>
-              <li class="membro" onclick="redirecionarParaMembros()">Membro 2: Nome do Membro 2</li>
-              <li class="membro" onclick="redirecionarParaMembros()">Membro 3: Nome do Membro 3</li>
-            <li class="membro" onclick="redirecionarParaMembros()">Membro 3: Nome do Membro 3</li>
-              
-          </ul>
-      </section>
+        <section class="projetos">
+            <h2><a href="projetos.php">Projetos</a></h2>
+            <p>Clique na caixa branca para saber mais sobre nossos projetos.</p>
+            <ul>
+                <li class="projeto" onclick="redirecionarParaTrabalho()">Projeto 1: Site criado para o professor</li>
+            </ul>
+        </section>
 
+        <section class="membros">
+            <h2><a href="membros.php">Membros</a></h2>
+            <p>Clique na caixa branca para saber mais sobre nossos membros.</p>
+            <ul>
+                <li class="membro" onclick="redirecionarParaMembros()">Membro 1: Marcos Vinicius Dias Costa</li>
+                <li class="membro" onclick="redirecionarParaMembros()">Membro 2: Fellipe De Oliveira Aragao</li>
+                <li class="membro" onclick="redirecionarParaMembros()">Membro 3: Matheus Alcântara Dos Santos</li>
+                <li class "membro" onclick="redirecionarParaMembros()">Membro 4: Maria Eduarda Souza De Albuquerque</li>
+            </ul>
+        </section>
     </div>
 
     <footer>
