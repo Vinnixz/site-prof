@@ -47,7 +47,7 @@
             //"Mad Max Estrada da Fúria <br><br> <img src='Mad.jpg'>",
             //"Velozes e furiosos 9 <br><br> <img src='velozes.jpg'>",
             //"Pantera Negra <br><br> <img src='pantera.jpg'>",
-            //"bates motelGirlmore Girls <br><br> <img src=''>",
+            //" <br><br> <img src=''>",
             // Adicione mais séries de romance aqui
         ],
         "suspense" => [
