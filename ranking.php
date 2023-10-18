@@ -13,7 +13,7 @@
             <option value="terror">Terror</option>
             <option value="comedia">Comédia</option>
             <option value="romance">Romance</option>
-            <option value="humor">Humor</option>
+            <option value="suspense">Suspense</option>
             <option value="anime">Anime</option>
         </select>
 
@@ -27,11 +27,11 @@
             "Por favor selecione um gênero",
         ],
         "terror" => [
-            "The Haunting of Hill House",
-            "American Horror Story",
-            "Stranger Things",
-            "Bates Motel",
-            "The Witcher",
+            "It: A coisa House<br><br> <img src='it.jpg'>", 
+            "American Horror Story <br><br> <img src='american.jpg'>",
+            "Stranger Things<br><br> <img src='strangers.jpg'>",
+            "Pânico 6 <br><br> <img src='panico.jpg'>",
+            "The Witcher <br><br> <img src='thewitcher.jpg'>",
             // Adicione mais séries de terror aqui
         ],
         "comedia" => [
