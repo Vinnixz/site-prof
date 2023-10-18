@@ -1,0 +1,61 @@
+/* Estilo para o corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo para o cabeçalho (título) */
+h1 {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+/* Estilo para o formulário */
+form {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo para a caixa de seleção (dropdown) */
+select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+/* Estilo para o botão "Sortear uma Série" */
+button[name="sortear"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+/* Estilo para o parágrafo que exibe a série sorteada */
+p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Estilo para o gênero selecionado (destaque) */
+strong {
+    color: #333;
+    text-decoration: underline;
+}
+
+/* Estilo para a caixa de seleção em foco (destaque) */
+select:focus {
+    outline: 2px solid #333;
+}
+
+/* Estilo para o botão em foco (destaque) */
+button[name="sortear"]:focus {
+    outline: 2px solid #333;
+}
