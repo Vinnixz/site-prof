@@ -12,7 +12,7 @@
             <option value="">Selecione um Gênero</option>
             <option value="terror">Terror</option>
             <option value="comedia">Comédia</option>
-            <option value="romance">Romance</option>
+            <option value="acao">Ação</option>
             <option value="suspense">Suspense</option>
             <option value="anime">Anime</option>
         </select>
@@ -42,17 +42,20 @@
             "Friends <br><br> <img src='friends.jpg'>",
             // Adicione mais séries de comédia aqui
         ],
-        "romance" => [
-            "SexLife <br><br> <img src='sexlife.jpg'>",
-            //"Bridgerton",
-            //"Emily um Paris",
-            //"Jane the Virgin",
-            //"bates motelGirlmore Girls",
+        "acao" => [
+            //"Perdido em Marte <br><br> <img src='perdido.jpg'>",
+            //"Mad Max Estrada da Fúria <br><br> <img src='Mad.jpg'>",
+            //"Velozes e furiosos 9 <br><br> <img src='velozes.jpg'>",
+            //"Pantera Negra <br><br> <img src='pantera.jpg'>",
+            //"bates motelGirlmore Girls <br><br> <img src=''>",
             // Adicione mais séries de romance aqui
         ],
-        "humor" => [
-            "Série de Humor 1",
-            "Série de Humor 2",
+        "suspense" => [
+            "Ilha do medo <br><br> <img src='island.jpg'>",
+            "Agente Infiltrado <br><br> <img src='infiltrado.jpg'>",
+            "Guerra dos Mundos <br><br> <img src='guerra.jpg'>",
+            "Amnésia <br><br> <img src='amnesia.jpg'>",
+            "Marcados para Morrer <br><br> <img src='marcados.jpg'>" 
             // Adicione mais séries de humor aqui
         ],
         "anime" => [
