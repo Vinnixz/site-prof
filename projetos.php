@@ -7,6 +7,8 @@
 <body>
     <header>
         <h1>Conteúdo de Trabalho</h1>
+      <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
+      </header>
     </header>
 
     <section>

@@ -1,42 +1,80 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Trabalho em grupo</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Sorteador de Séries</title>
+  <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
-    <header>
-        <h1>Grupo de Trabalho</h1>
-    </header>
+    <h1>Sorteador de Séries</h1>
 
-    <section>
-        <h2>Sobre o Grupo</h2>
-        <p>O nosso grupo de trabalho é uma equipe dedicada e comprometida com a realização de projetos e tarefas comuns. Trabalhamos juntos para alcançar nossos objetivos e metas. O grupo é composto por membros talentosos e diversificados, cada um contribuindo com suas habilidades e conhecimentos.</p>
-    </section>
+    <form method="post" action="">
+        <select name="genero" id="genero">
+            <option value="">Selecione um Gênero</option>
+            <option value="terror">Terror</option>
+            <option value="comedia">Comédia</option>
+            <option value="acao">Ação</option>
+            <option value="suspense">Suspense</option>
+            <option value="anime">Anime</option>
+        </select>
 
-    <div class="container">
-        <section class="projetos">
-            <h2><a href="projetos.php">Projetos</a></h2>
-            <p>Clique na caixa branca para saber mais sobre nossos projetos.</p>
-            <ul>
-                <li class="projeto" onclick="redirecionarParaTrabalho()">Projeto 1: Site criado para o professor</li>
-            </ul>
-        </section>
+        <button type="submit" name="sortear">Sortear uma Série</button>
+    </form>
 
-        <section class="membros">
-            <h2><a href="membros.php">Membros</a></h2>
-            <p>Clique na caixa branca para saber mais sobre nossos membros.</p>
-            <ul>
-                <li class="membro" onclick="redirecionarParaMembros()">Membro 1: Marcos Vinicius Dias Costa</li>
-                <li class="membro" onclick="redirecionarParaMembros()">Membro 2: Fellipe De Oliveira Aragao</li>
-                <li class="membro" onclick="redirecionarParaMembros()">Membro 3: Matheus Alcântara Dos Santos</li>
-                <li class "membro" onclick="redirecionarParaMembros()">Membro 4: Maria Eduarda Souza De Albuquerque</li>
-            </ul>
-        </section>
-    </div>
+    <?php
+    $series = [
+        "" => [
+            "Por favor selecione um gênero",
+        ],
+        "terror" => [
+            "It: A coisa House<br><br> <img src='it.jpg'>", 
+            "American Horror Story <br><br> <img src='american.jpg'>",
+            "Stranger Things<br><br> <img src='strangers.jpg'>",
+            "Pânico 6 <br><br> <img src='panico.jpg'>",
+            "The Witcher <br><br> <img src='thewitcher.jpg'>",
+        ],
+        "comedia" => [
+            "Brooklyn Nine-Nine <br><br> <img src='brooklyn3.jpg'>",
+            "The Marvelous Mrs. Maisel <br><br> <img src='marvelous.jpg'>",
+            "Seinfeld <br><br> <img src='seinfeld.jpg'>",
+            "The Office <br><br> <img src='theoffice.jpg'>",
+            "Friends <br><br> <img src='friends.jpg'>",
+        ],
+        "acao" => [
+            "Perdido em Marte <br><br> <img src='perdido.jpg'>",
+            "Mad Max Estrada da Fúria <br><br> <img src='Mad.jpg'>",
+            "Velozes e furiosos 9 <br><br> <img src='velozes.jpg'>",
+            "Pantera Negra <br><br> <img src='pantera.jpg'>",
+            "John Wick <br><br> <img src='johnwick.jpg'>",
+        ],
+        "suspense" => [
+            "Ilha do medo <br><br> <img src='island.jpg'>",
+            "Agente Infiltrado <br><br> <img src='infiltrado.jpg'>",
+            "Guerra dos Mundos <br><br> <img src='guerra.jpg'>",
+            "Amnésia <br><br> <img src='amnesia.jpg'>",
+            "Marcados para Morrer <br><br> <img src='marcados.jpg'>" 
+        ],
+        "anime" => [
+            "One Piece <br><br> <img src='onepiece.jpg'>",
+            "Death Note <br><br> <img src='deathnote.jpg'>",
+            "Jujutsu Kaisen <br><br> <img src='jujutsokaisen.jpg'>",
+            "Cowboy Bebop <br><br> <img src='cowboy.jpg'>",
+            "JoJo's Bizarre Adventure <br><br> <img src='jojo.jpg'>",
+        ]
+    ];
 
-    <footer>
-        <p>Para entrar em contato com o nosso grupo de trabalho, <a href="contato.php">clique aqui</a> ou envie um e-mail para marvcosta04@gmail.com.</p>
-    </footer>
+    if (isset($_POST['sortear'])) {
+        $generoSelecionado = $_POST['genero'];
+
+        if ($generoSelecionado === "") {
+            echo "<p>Por favor, selecione um gênero antes de sortear.</p>";
+        } else {
+            $serieSorteada = $series[$generoSelecionado][array_rand($series[$generoSelecionado])];
+            echo "<p>Recomendamos a série de $generoSelecionado: <strong>$serieSorteada</strong></p>";
+        }
+    }
+    ?> 
+      <footer>
+          <p class="conhecer">Para conhecer os criadores, <a href="grupo.php">clique aqui</a>.</p>
+      </footer>
 </body>
 </html>

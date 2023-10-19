@@ -12,6 +12,7 @@
 <body>
     <header>
         <h1>Processamento do Formulário</h1>
+      <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
     </header>
 
     <?php

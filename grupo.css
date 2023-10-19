@@ -1,0 +1,74 @@
+/* Estilizando o body da página */
+body {
+    background-color: #f2f2f2; /* Cinza claro */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilizando o header (cabeçalho) */
+header {
+    background-color: #333; /* Cinza escuro */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.btn-voltar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    float: left;
+    margin-right: 20px;
+    line-height: 40px;
+    position: absolute;
+    top: 27px;
+    left: 18px;
+    z-index: 10;
+    display: inline;
+}
+
+.btn-voltar:hover {
+    background-color: #555;
+}
+
+/* Estilizando a seção 'Sobre o Grupo' */
+section {
+    background-color: white; /* Fundo branco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra cinza */
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Estilizando as seções 'Projetos' e 'Membros' */
+.projetos, .membros {
+    background-color: white; /* Fundo branco */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra cinza */
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Estilizando a lista de projetos e membros */
+ul {
+    list-style-type: none;
+}
+
+/* Estilizando os links nas seções de projetos e membros */
+a {
+    text-decoration: none;
+    color: #333; /* Cinza escuro */
+    font-weight: bold;
+}
+
+/* Estilizando o footer (rodapé) */
+footer {
+    background-color: #333; /* Cinza escuro */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.aqui {
+  color: #fff;
+}

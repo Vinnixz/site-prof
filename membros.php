@@ -3,10 +3,12 @@
 <head>
     <title>Membros do Grupo</title>
     <link rel="stylesheet" type="text/css" href="membros.css">
+  
 </head>
 <body>
     <header>
         <h1>Membros do Grupo</h1>
+      <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
     </header>
 
     <section>
