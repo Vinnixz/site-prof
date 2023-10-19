@@ -16,7 +16,7 @@
         <p>Aqui estão alguns dos projetos em que estamos trabalhando atualmente:</p>
         <ul>
             <li>
-                <form method="POST" action="ranking.php">
+                <form method="POST" action="index.php">
                     <button type="submit">Ranking das Series</button>
                 </form>
             </li>
