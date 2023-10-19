@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Sorteador de Séries</title>
-    <link rel="stylesheet" type="text/css" href="sorteador.css">
+  <link rel="stylesheet" type="text/css" href="sorteador.css">
 </head>
 <body>
     <h1>Sorteador de Séries</h1>
