@@ -16,7 +16,7 @@
 
     <section>
         <h2>Formulário de Contato</h2>
-        <form method="POST" action="processa_formulario.php">
+        <form method="POST" action="css/processa_formulario.php">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required><br>
 

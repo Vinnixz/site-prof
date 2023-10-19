@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Membros do Grupo</title>
-    <link rel="stylesheet" type="text/css" href="membros.css">
+    <link rel="stylesheet" type="text/css" href="css/membros.css">
   
 </head>
 <body>

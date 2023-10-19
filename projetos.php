@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Conteúdo de Trabalho</title>
-    <link rel="stylesheet" type="text/css" href="projetos.css">
+    <link rel="stylesheet" type="text/css" href="css/projetos.css">
 </head>
 <body>
     <header>
