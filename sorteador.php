@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Sorteador de Séries</title>
-    <link rel="stylesheet" type="text/css" href="ranking.css">
+    <link rel="stylesheet" type="text/css" href="sorteador.css">
 </head>
 <body>
     <h1>Sorteador de Séries</h1>
@@ -12,8 +12,8 @@
             <option value="">Selecione um Gênero</option>
             <option value="terror">Terror</option>
             <option value="comedia">Comédia</option>
-            <option value="romance">Romance</option>
-            <option value="humor">Humor</option>
+            <option value="acao">Ação</option>
+            <option value="suspense">Suspense</option>
             <option value="anime">Anime</option>
         </select>
 
@@ -27,34 +27,43 @@
             "Por favor selecione um gênero",
         ],
         "terror" => [
-            "The Haunting of Hill House",
-            "American Horror Story",
-            "Stranger Things",
-            "Bates Motel",
-            "The Witcher",
+            "It: A coisa House<br><br> <img src='it.jpg'>", 
+            "American Horror Story <br><br> <img src='american.jpg'>",
+            "Stranger Things<br><br> <img src='strangers.jpg'>",
+            "Pânico 6 <br><br> <img src='panico.jpg'>",
+            "The Witcher <br><br> <img src='thewitcher.jpg'>",
             // Adicione mais séries de terror aqui
         ],
         "comedia" => [
-            "Brooklyn Nine-Nine <br><br> <img src='brooklyn.jpg'>",
+            "Brooklyn Nine-Nine <br><br> <img src='brooklyn3.jpg'>",
             "The Marvelous Mrs. Maisel <br><br> <img src='marvelous.jpg'>",
-            "Parks and Recreation <br><br> <img src=''>",
+            "Seinfeld <br><br> <img src='seinfeld.jpg'>",
             "The Office <br><br> <img src='theoffice.jpg'>",
-            "Friends <br><br> <img src=''>",
+            "Friends <br><br> <img src='friends.jpg'>",
             // Adicione mais séries de comédia aqui
         ],
-        "romance" => [
-            "Outlander",
-            "Série de Romance 2",
+        "acao" => [
+            "Perdido em Marte <br><br> <img src='perdido.jpg'>",
+            "Mad Max Estrada da Fúria <br><br> <img src='Mad.jpg'>",
+            "Velozes e furiosos 9 <br><br> <img src='velozes.jpg'>",
+            "Pantera Negra <br><br> <img src='pantera.jpg'>",
+            "John Wick <br><br> <img src='johnwick.jpg'>",
             // Adicione mais séries de romance aqui
         ],
-        "humor" => [
-            "Série de Humor 1",
-            "Série de Humor 2",
+        "suspense" => [
+            "Ilha do medo <br><br> <img src='island.jpg'>",
+            "Agente Infiltrado <br><br> <img src='infiltrado.jpg'>",
+            "Guerra dos Mundos <br><br> <img src='guerra.jpg'>",
+            "Amnésia <br><br> <img src='amnesia.jpg'>",
+            "Marcados para Morrer <br><br> <img src='marcados.jpg'>" 
             // Adicione mais séries de humor aqui
         ],
         "anime" => [
-            "Série de Anime 1",
-            "Série de Anime 2",
+            "One Piece <br><br> <img src='onepiece.jpg'>",
+            "Death Note <br><br> <img src='deathnote.jpg'>",
+            "Jujutsu Kaisen <br><br> <img src='jujutsokaisen.jpg'>",
+            "Cowboy Bebop <br><br> <img src='cowboy.jpg'>",
+            "JoJo's Bizarre Adventure <br><br> <img src='jojo.jpg'>",
             // Adicione mais séries de anime aqui
         ]
     ];
