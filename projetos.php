@@ -17,7 +17,12 @@
         <ul>
             <li>
                 <form method="POST" action="index.php">
-                    <button type="submit">Ranking das Series</button>
+                    <button type="submit">Recomendar serie</button>
+                </form>
+            </li>
+            <li>
+                <form method="POST" action="ranking.php">
+                    <button type="submit">Recomendar serie</button>
                 </form>
             </li>
         </ul>

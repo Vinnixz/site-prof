@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Sorteador de Séries</title>
+    <title>Recomendar Séries</title>
   <link rel="stylesheet" type="text/css" href="css/sorte.css">
 </head>
 <body>
-    <h1>Sorteador de Séries</h1>
+    <h1>Recomendar Série</h1>
 
     <form method="post" action="">
         <select name="genero" id="genero">
             <option value="">Selecione um Gênero</option>
             <option value="terror">Terror</option>
-            <option value="comedia">Comédia</option>
-            <option value="acao">Ação</option>
+            <option value="comédia">Comédia</option>
+            <option value="ação">Ação</option>
             <option value="suspense">Suspense</option>
             <option value="anime">Anime</option>
         </select>
 
-        <button type="submit" name="sortear">Sortear uma Série</button>
+        <button type="submit" name="sortear">Recomendar</button>
     </form>
 
     <?php
@@ -33,14 +33,14 @@
             "Pânico 6 <br><br> <img src='imagem/panico.jpg'>",
             "The Witcher <br><br> <img src='imagem/thewitcher.jpg'>",
         ],
-        "comedia" => [
+        "comédia" => [
             "Brooklyn Nine-Nine <br><br> <img src='imagem/brooklyn3.jpg'>",
             "The Marvelous Mrs. Maisel <br><br> <img src='imagem/marvelous.jpg'>",
             "Seinfeld <br><br> <img src='imagem/seinfeld.jpg'>",
             "The Office <br><br> <img src='imagem/theoffice.jpg'>",
             "Friends <br><br> <img src='imagem/friends.jpg'>",
         ],
-        "acao" => [
+        "ação" => [
             "Perdido em Marte <br><br> <img src='imagem/perdido.jpg'>",
             "Mad Max Estrada da Fúria <br><br> <img src='imagem/Mad.jpg'>",
             "Velozes e furiosos 9 <br><br> <img src='imagem/velozes.jpg'>",
@@ -76,7 +76,7 @@
     
     ?> 
       <footer>
-          <p class="conhecer">Para conhecer os criadores, <a href="grupo.php">clique aqui</a>.</p>
+          <p class="conhecer">Para conhecer os criadores, <a href="grupo.php" style="color: white; text-decoration: none;">clique aqui</a>.</p>
       </footer>
 </body>
 </html>

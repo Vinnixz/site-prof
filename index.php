@@ -1,39 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Página Inicial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Netflix</title>
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
         body {
             display: flex;
-            flex-direction: column; 
-            justify-content: center; 
-            align-items: center; 
+            justify-content: center;
+            align-items: center;
             height: 100vh;
             margin: 0;
             background-color: black;
         }
 
-       #start-button {
-            padding: 32px 64px;
-            font-size: 32px;
-            color: #fff;
+       h2 {
+        font-family: 'Roboto Slab', sans-serif;
+        font-weight: 300; 
+        color: black;
+       }
+        .login-container {
+            background-color: white; 
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+    
+        form {
+            width: 300px;
+            margin: 5px 0px;
+            padding: 20px;
+            color: white;
+            text-align: center;
+            
+           
+        }
+
+        form input[type="text"],
+        form input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid grey; 
+            border-radius: 5px;
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #e50914; 
             border: none;
             border-radius: 5px;
+            color: black;
+            font-weight: bold;
             cursor: pointer;
-            background-color: #e10b17; 
-            transition: background-color 0.3s;
         }
-      .netflix {
-        width: 600px;
-        height: 400px;
-      }
         
     </style>
 </head>
 <body>
-    <img class='netflix' src="imagem/netflix.jpg" alt="LOGO NETFLIX">
-    <form method="post" action="sorte.php">
-        <button id="start-button" type="submit">Start</button>
-    </form>
+    <div class="login-container">
+    
+        <h2>Cadastro</h2>
+        <form method="POST" action="start.php">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <label for="senha">Senha (3 primeiros dígitos do CPF):</label>
+            <input type="password" id="senha" name="senha" required>
+            <button type="submit">Entrar</button>
+        </form>
+    </div>
 </body>
 </html>
