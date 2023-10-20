@@ -7,7 +7,7 @@
 <body>
     <header>
         <h1>Grupo de Trabalho</h1>
-      <form method="POST" action="sorte.php">
+      <form method="POST" action="recomendar.php">
       <button type="submit" class="btn-voltar">Voltar</button>
       </form>
     </header>
