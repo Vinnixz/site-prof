@@ -30,6 +30,9 @@
     </style>
 </head>
 <body>
+  <form method="POST" action="start.php">
+  <button type="submit" class="btn-voltar">Voltar</button>
+  </form>
     <header>
     <h1>Ranking de Séries de TV</h1>
     </header>

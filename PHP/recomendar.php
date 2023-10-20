@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Recomendar Séries</title>
-  <link rel="stylesheet" type="text/css" href="css/sorte.css">
+  <link rel="stylesheet" type="text/css" href="../css/sorte.css">
 </head>
 <body>
     <h1>Recomendar Série</h1>
@@ -15,6 +15,7 @@
             <option value="ação">Ação</option>
             <option value="suspense">Suspense</option>
             <option value="anime">Anime</option>
+            <option value="romance">Anime</option>
         </select>
 
         <button type="submit" name="sortear">Recomendar</button>
@@ -62,6 +63,10 @@
             "JoJo's Bizarre Adventure <br><br> <img src='imagem/jojo.jpg'>",
         ]
     ];
+      "romance" ==> [
+        "NOME DO FILME <br><br> <img src='imagem/nome.jpg'>",
+      ]
+      }
 
     if (isset($_POST['sortear'])) {
         $generoSelecionado = $_POST['genero'];

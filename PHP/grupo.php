@@ -2,12 +2,14 @@
 <html>
 <head>
     <title>Trabalho em grupo</title>
-    <link rel="stylesheet" type="text/css" href="css/grupo.css">
+    <link rel="stylesheet" type="text/css" href="../css/grupo.css">
 </head>
 <body>
     <header>
         <h1>Grupo de Trabalho</h1>
-      <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
+      <form method="POST" action="sorte.php">
+      <button type="submit" class="btn-voltar">Voltar</button>
+      </form>
     </header>
 
     <section>

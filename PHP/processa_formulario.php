@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>Processamento do Formulário</title>
-  <link rel="stylesheet" type="text/css" href="css/processa_formulario.css">
+  <link rel="stylesheet" type="text/css" href="../css/processa_formulario.css">
 </head>
 <!DOCTYPE html>
 <html>

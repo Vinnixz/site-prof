@@ -2,7 +2,10 @@
 <html>
 <head>
     <title>Contato</title>
-  <link rel="stylesheet" type="text/css" href="contato.css">
+  <form method="POST" action="grupo.php">
+  <button type="submit" class="btn-voltar">Voltar</button>
+  </form>
+  <link rel="stylesheet" type="text/css" href="../css/contato.css">
 </head>
 <body>
     <header>
