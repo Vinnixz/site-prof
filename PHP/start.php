@@ -31,7 +31,7 @@
     </style>
 </head>
 <body>
-    <img class='netflix' src="imagem/netflix.jpg" alt="LOGO NETFLIX">
+    <img class='netflix' src="../imagem/netflix.jpg" alt="LOGO NETFLIX">
     <form method="post" action="sorte.php">
     
 
