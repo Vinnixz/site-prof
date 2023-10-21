@@ -2,15 +2,13 @@
 <html>
 <head>
     <title>Membros do Grupo</title>
-    <link rel="stylesheet" type="text/css" href="../css/membros.css">
+    <link rel="stylesheet" type="text/css" href="css/membros.css">
   
 </head>
 <body>
     <header>
         <h1>Membros do Grupo</h1>
-      <form method="POST" action="grupo.php">
-        <button type="submit" class="btn-voltar">Voltar</button>
-        </form>
+      <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
     </header>
 
     <section>

@@ -2,14 +2,18 @@
 <html>
 <head>
     <title>Trabalho em grupo</title>
-    <link rel="stylesheet" type="text/css" href="../css/grupo.css">
+    <link rel="stylesheet" type="text/css" href="css/grupo.css">
 </head>
 <body>
     <header>
         <h1>Grupo de Trabalho</h1>
+<<<<<<< HEAD:PHP/grupo.php
       <form method="POST" action="recomendar.php">
       <button type="submit" class="btn-voltar">Voltar</button>
       </form>
+=======
+      <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
+>>>>>>> parent of 2fb4f02 (Criando pasta php):grupo.php
     </header>
 
     <section>

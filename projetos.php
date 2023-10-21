@@ -2,13 +2,12 @@
 <html>
 <head>
     <title>Conteúdo de Trabalho</title>
-    <link rel="stylesheet" type="text/css" href="../css/projetos.css">
+    <link rel="stylesheet" type="text/css" href="css/projetos.css">
 </head>
 <body>
     <header>
         <h1>Conteúdo de Trabalho</h1>
       <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
-      <!--  USA O PHP BURRO-->
       </header>
     </header>
 

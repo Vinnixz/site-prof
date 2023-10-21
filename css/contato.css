@@ -10,9 +10,6 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 h1 {
@@ -26,28 +23,6 @@ section {
     border-radius: 5px;
 }
 
-.btn-voltar {
-    background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-    float: left;
-    margin-right: 20px;
-    line-height: 40px;
-    position: absolute;
-    top: 5px;
-    left: 18px;
-    z-index: 10;
-    display: inline;
-    position: fixed;
-}
-
-.btn-voltar:hover {
-    background-color: #555;
-}
-
 ul {
     list-style-type: none;
     padding: 0;
@@ -58,7 +33,7 @@ li {
 }
 
 /* Estilos específicos para a página de membros */
-ul, li, h3 {
+ul li h3 {
     color: #333;
 }
 

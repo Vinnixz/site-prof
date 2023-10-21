@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -39,7 +39,7 @@
            
         }
 
-        form input[type="email"],
+        form input[type="text"],
         form input[type="password"] {
             width: 100%;
             padding: 10px;
@@ -70,9 +70,9 @@
         <h2>Cadastro</h2>
         <form method="POST" action="start.php">
             <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required placeholder="Digite seu email">
+            <input type="text" id="email" name="email" required>
             <label for="senha">Senha (3 primeiros dígitos do CPF):</label>
-            <input type="password" id="senha" name="senha" required placeholder="Digite sua senha">
+            <input type="password" id="senha" name="senha" required>
             <button type="submit">Entrar</button>
         </form>
     </div>
