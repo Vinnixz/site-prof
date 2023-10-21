@@ -62,6 +62,11 @@
             "JoJo's Bizarre Adventure <br><br> <img src='imagem/jojo.jpg'>",
         ]
     ];
+<<<<<<< HEAD:sorte.php
+=======
+      
+      }
+>>>>>>> af17a75 (RA):PHP/recomendar.php
 
     if (isset($_POST['sortear'])) {
         $generoSelecionado = $_POST['genero'];
