@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Netflix</title>
     <style>
+
       @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
 
         body {
@@ -60,19 +61,30 @@
             color: black;
             font-weight: bold;
             cursor: pointer;
+
+        form genero {
+          position: left;
+        }
         }
         
     </style>
 </head>
 <body>
+  <style>
+    body {
+      background-image: url("https://t.ctcdn.com.br/xzJNU6tuo-MVcwFd3yxx52bkURs=/768x432/smart/i576969.png");
+      background-repeat: none;
+      width
+    }
+  </style>
     <div class="login-container">
     
         <h2>Cadastro</h2>
         <form method="POST" action="start.php">
             <label for="email">Email:</label>
-            <input type="text" id="email" name="email" required>
+            <input type="text" id="email" name="email" required placeholder="Digite seu email:">
             <label for="senha">Senha (3 primeiros dígitos do CPF):</label>
-            <input type="password" id="senha" name="senha" required>
+            <input type="password" id="senha" name="senha" required placeholder="3 primeiros digitos do cpf">
             <button type="submit">Entrar</button>
         </form>
     </div>

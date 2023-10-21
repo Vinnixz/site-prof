@@ -32,7 +32,7 @@
 </head>
 <body>
     <img class='netflix' src="imagem/netflix.jpg" alt="LOGO NETFLIX">
-    <form method="post" action="sorte.php">
+    <form method="post" action="recomendar.php">
     
 
         <button id="start-button" type="submit">Start</button>
