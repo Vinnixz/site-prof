@@ -12,7 +12,9 @@
 <body>
     <header>
         <h1>Processamento do Formulário</h1>
-      <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
+      <form method="POST" action="grupo.php">
+      <button type="submit" class="btn-voltar">Voltar</button>
+      </form>
     </header>
 
     <?php

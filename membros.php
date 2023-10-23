@@ -9,8 +9,8 @@
     <header>
       
         <h1>Membros do Grupo</h1>
-        <form method="post" action="grupo.php">
-      <button type="submit" id="btn-voltar">Voltar</button>
+      <form method="POST" action="grupo.php">
+      <button type="submit" class="btn-voltar">Voltar</button>
       </form>
     </header>
     </header>
@@ -32,9 +32,6 @@
                 array("Matheus Alcântara Dos Santos" , "RA:1735504374","gerente de projeto experiente. Ele lidera nossas equipes com eficiência, garantindo que os projetos sejam entregues dentro do prazo e dentro do orçamento."),
 
                 array("Maria Eduarda Souza De Albuquerque", "RA: 35495448","analista de dados com experiência em análisar e interpretar dados estatísticos. Ele trabalha com técnicas de mineração de dados, análise de dados e gerenciamento de banco de dados.")
-
-                array("Maria Eduarda Souza De Albuquerque", "RA: 35495448","analista de dados com experiência em análisar e interpretar dados estatísticos. Ela trabalha com técnicas de mineração de dados, análise de dados e gerenciamento de banco de dados.")
-
             );
 
             // Loop para exibir informações da equipe

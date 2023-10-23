@@ -7,7 +7,9 @@
 <body>
     <header>
         <h1>Conteúdo de Trabalho</h1>
-      <a href="javascript:history.back()" class="btn-voltar">Voltar</a>
+      <form method="POST" action="grupo.php">
+      <button type="submit" class="btn-voltar">Voltar</button>
+      </form>
       </header>
     </header>
 
@@ -16,12 +18,7 @@
         <p>Aqui estão alguns dos projetos em que estamos trabalhando atualmente:</p>
         <ul>
             <li>
-                <form method="POST" action="index.php">
-                    <button type="submit">Recomendar serie</button>
-                </form>
-            </li>
-            <li>
-                <form method="POST" action="ranking.php">
+                <form method="POST" action="start.php">
                     <button type="submit">Recomendar serie</button>
                 </form>
             </li>
@@ -34,7 +31,7 @@
     </section>
 
     <footer>
-        <p>Para voltar à página principal, <a href="index.php">clique aqui</a>.</p>
+        <p>Para voltar à página principal, <a href="grupo.php">clique aqui</a>.</p>
     </footer>
 </body>
 </html>

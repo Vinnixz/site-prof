@@ -22,8 +22,7 @@
               if (!$idadeConfirmada) {
                   echo "Você precisa confirmar que tem 18 anos ou mais para continuar.";
               } else {
-                  header("Location: start.php");
-                  exit;
+                header("Location: start.php");
               }
             }
           }

@@ -6,16 +6,19 @@ body {
     padding: 0;
 }
 
+h2{
+  color: #d01616;
 
+}
 header {
-    background-color: #333;
+    background-color: #d01616;
     color: white;
     text-align: center;
     padding: 20px 0;
 }
 
 .btn-voltar {
-    background-color: #333;
+    background-color: #d01616;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
@@ -32,19 +35,19 @@ header {
 }
 
 .btn-voltar:hover {
-    background-color: #555;
+    background-color: #700505;
 }
 
 section {
     background-color: white;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px #700505;
     padding: 20px;
     margin: 20px;
 }
 
 .projetos, .membros {
     background-color: white; 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    box-shadow: 0 2px 4px #700505;
     padding: 20px;
     margin: 20px;
 }
@@ -57,18 +60,18 @@ ul {
 
 a {
     text-decoration: none;
-    color: #333; /* Cinza escuro */
+    color: #bd0a0a; 
     font-weight: bold;
 }
 
-/* Estilizando o footer (rodapé) */
+
 footer {
-    background-color: #333; /* Cinza escuro */
+    background-color: #a60808;
     color: white;
     text-align: center;
     padding: 10px 0;
 }
 
 .aqui {
-    color: #fff; /* Branco */
+    color: #fff; 
 }

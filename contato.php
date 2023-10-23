@@ -2,7 +2,10 @@
 <html>
 <head>
     <title>Contato</title>
-  <link rel="stylesheet" type="text/css" href="contato.css">
+  <link rel="stylesheet" type="text/css" href="css/contato.css">
+  <form method="POST" action="grupo.php">
+  <button type="submit" class="btn-voltar">Voltar</button>
+  </form>
 </head>
 <body>
     <header>
@@ -16,7 +19,7 @@
 
     <section>
         <h2>Formulário de Contato</h2>
-        <form method="POST" action="../css/processa_formulario.php">
+        <form method="POST" action="processa_formulario.php">
             <label for="nome">Nome:</label>
             <input type="text" id="nome" name="nome" required><br>
 

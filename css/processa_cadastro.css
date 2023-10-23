@@ -4,7 +4,7 @@
         align-items: center;
         height: 100vh;
         margin: 0;
-        background-color: black;
+        background-color: #d01616;
         background-image: url("../imagem/fundo.jpg");
         background-repeat: no-repeat;
         width: 100%;
@@ -19,5 +19,5 @@
         padding: 20px;
         border-radius: 10px;
         text-align: center;
-        color: black;
+        color: #d01616;
     }
