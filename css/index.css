@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+    background-image: url("../imagem/fundo.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 5px 0px;
+    padding: 20px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input[type="email"], 
+form input[type="password"],
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid grey;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form input[type="checkbox"]
+form select {
+  color: black;
+}
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e50914;
+    border: none;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+h2 {
+    color: black;
+}
