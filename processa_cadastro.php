@@ -16,18 +16,19 @@
           $idadeConfirmada = isset($_POST["idade-confirmada"]);
           $genero = $_POST["genero"];
 
-          if ($senha != $confirmarSenha) {
-              echo "As senhas não coincidem. Por favor, tente novamente.";
-          } else {
-              if (!$idadeConfirmada) {
-                  echo "Você precisa confirmar que tem 18 anos ou mais para continuar.";
-              } else {
-                header("Location: start.php");
-              }
+         if (strlen($senha) < 3) {
+                echo "A senha deve ter pelo menos 3 caracteres.";
+            } elseif ($senha != $confirmarSenha) {
+                echo "As senhas não coincidem. Por favor, tente novamente.";
+            } else {
+                if (!$idadeConfirmada) {
+                    echo "Você precisa confirmar que tem 18 anos ou mais para continuar.";
+                } else {
+                    header("Location: start.php");
+                }
             }
-          }
-      
-      ?>
+        }
+        ?>
   </div>
 </body>
 </html>
