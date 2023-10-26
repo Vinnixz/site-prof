@@ -27,11 +27,11 @@
             <?php
             // Defina uma matriz com informações sobre os membros da equipe
             $equipe = array(
-                array("Marcos Vinicius Dias Costa", "RA: 1734941631", "desenvolvedor web experiente com forte conhecimento em PHP, HTML, CSS e JavaScript. Ele desempenha um papel fundamental na criação e manutenção de nossos sites."),
+                array("Marcos Vinicius Dias Costa", "RA:1734941631", "desenvolvedor web experiente com forte conhecimento em PHP, HTML, CSS e JavaScript. Ele desempenha um papel fundamental na criação e manutenção de nossos sites."),
                 array("Fellipe De Oliveira Aragao", "RA:1735826428", "designer gráfico criativo e talentoso. Suas habilidades de design são essenciais na criação de interfaces de usuário atraentes e experiências de usuário excepcionais."),
                 array("Matheus Alcântara Dos Santos" , "RA:1735504374","gerente de projeto experiente. Ele lidera nossas equipes com eficiência, garantindo que os projetos sejam entregues dentro do prazo e dentro do orçamento."),
 
-                array("Maria Eduarda Souza De Albuquerque", "RA: 35495448","analista de dados com experiência em análisar e interpretar dados estatísticos. Ele trabalha com técnicas de mineração de dados, análise de dados e gerenciamento de banco de dados.")
+                array("Maria Eduarda Souza De Albuquerque", "RA:35495448","analista de dados com experiência em análisar e interpretar dados estatísticos. Ele trabalha com técnicas de mineração de dados, análise de dados e gerenciamento de banco de dados.")
             );
 
             // Loop para exibir informações da equipe
