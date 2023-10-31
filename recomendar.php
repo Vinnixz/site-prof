@@ -1,17 +1,8 @@
-<?php
-session_start();
-
-if (!isset($_SESSION['usuario_logado'])) {
-    header("Location: index.php"); // Redirecionar para a página de login se o usuário não estiver logado.
-    exit;
-}
-?>
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Recomendar Séries</title>
-  <link rel="stylesheet" type="text/css" href="css/sorte.css">
+    <link rel="stylesheet" type="text/css" href="css/sorte.css">
 </head>
 <body>
     <h1>Recomendar Série</h1>
@@ -30,12 +21,7 @@ if (!isset($_SESSION['usuario_logado'])) {
     </form>
 
     <?php
-
-
     $series = [
-        "" => [
-            "Por favor selecione um gênero",
-        ],
         "terror" => [
             "It: A coisa House<br><br> <img src='imagem/it.jpg'>", 
             "American Horror Story <br><br> <img src='imagem/american.jpg'>",
@@ -79,8 +65,9 @@ if (!isset($_SESSION['usuario_logado'])) {
         if ($generoSelecionado === "") {
             echo "<p class='resposta'>Por favor, selecione um gênero antes de sortear.</p>";
         } else {
-            $serieSorteada = $series[$generoSelecionado][array_rand($series[$generoSelecionado])];
-            echo "<p class='resposta'>Recomendamos a série de $generoSelecionado: <strong>$serieSorteada</strong></p>";
+            if (isset($series[$generoSelecionado]) && is_array($series[$generoSelecionado])) {
+                $serieSorteada = $series[$generoSelecionado][array_rand($series[$generoSelecionado])];
+                echo "<p class='resposta'>Recomendamos a série de $generoSelecionado: <strong>$serieSorteada</strong></p>";
     ?>
 
     <form method='post' action=''>
@@ -94,39 +81,28 @@ if (!isset($_SESSION['usuario_logado'])) {
         </select>
         <button type='submit' name='avaliar'>Avaliar</button>
     </form>
-  
 
     <?php
+            } else {
+                echo "<p class='resposta'>Gênero não encontrado.</p>";
+            }
         }
     }
 
     if (isset($_POST['avaliar'])) {
         $avaliacao = $_POST['avaliacao'];
-
-        switch ($avaliacao) {
-            case '1':
-                echo "<p class='resposta'>Você deu uma avaliação de 1/5 para a série.</p>";
-                break;
-            case '2':
-                echo "<p class='resposta'>Você deu uma avaliação de 2/5 para a série.</p>";
-                break;
-            case '3':
-                echo "<p class='resposta'>Você deu uma avaliação de 3/5 para a série.</p>";
-                break;
-            case '4':
-                echo "<p class='resposta'>Você deu uma avaliação de 4/5 para a série.</p>";
-                break;
-            case '5':
-                echo "<p class='resposta'>Você deu uma avaliação de 5/5 para a série. Obrigado pela alta avaliação!</p>";
-                break;
-            default:
-                echo "<p class='resposta'>Opção de avaliação inválida.</p>";
+        echo "<p class='resposta'>Você deu uma avaliação de $avaliacao/5 para a série. Avaliação: ";
+        $i = 1;
+        while ($i <= $avaliacao) {
+            echo "⭐"; 
+            $i++;
         }
+        echo "</p>";
     }
     ?>
 
-      <footer>
-          <p class="conhecer">Para conhecer os criadores, <a href="grupo.php" style="color: white; text-decoration: none;">clique aqui</a>.</p>
-      </footer>
+    <footer>
+        <p class="conhecer">Para conhecer os criadores, <a href="grupo.php" style="color: white; text-decoration: none;">clique aqui</a>.</p>
+    </footer>
 </body>
 </html>

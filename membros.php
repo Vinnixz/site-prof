@@ -96,10 +96,9 @@
               header: Contém o cabeçalho da página, incluindo o título "Entre em Contato".<br>
               section: Exibe informações gerais sobre como entrar em contato com a equipe.<br>
               section: Apresenta um formulário de contato com campos para nome, e-mail e mensagem.<br>
-              footer: Apresenta informações adicionais de contato.<br>
               div class="container": Contém duas seções, uma para listar projetos e outra para listar membros da equipe.<br>
               div class="login-container": Contém um formulário de cadastro com campos para e-mail, senha, confirmação de senha, declaração de idade e seleção de gênero.<br>
-              footer: Não há informações de contato nesta página.<br>
+              footer: Estliza o rodapé da páina.<br>
               h1: Título "Recomendar Série".<br>
               form: Permite ao usuário selecionar um gênero de série e, ao clicar em "Recomendar", gera uma recomendação na página.<br>
             <br></li>

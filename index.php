@@ -10,10 +10,10 @@
   <div class="login-container">
       <h2>Cadastro</h2>
       <form method="POST" action="processa_cadastro.php">
-          <label for="email">Email:</label>
+          <label for="email">Email(site@trabalho.com):</label>
           <input type="email" id="email" name="email" required placeholder="Digite seu email">
 
-          <label for="senha">Senha (3 primeiros dígitos do CPF):</label>
+          <label for="senha">Senha (senha123):</label>
           <input type="password" id="senha" name="senha" required placeholder="3 primeiros dígitos do CPF">
 
           <label for="confirmar-senha">Confirme a senha:</label>
