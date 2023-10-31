@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if (!isset($_SESSION['usuario_logado'])) {
+    header("Location: index.php"); // Redirecionar para a página de login se o usuário não estiver logado.
+    exit;
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -21,6 +30,7 @@
     </form>
 
     <?php
+
 
     $series = [
         "" => [
@@ -71,10 +81,50 @@
         } else {
             $serieSorteada = $series[$generoSelecionado][array_rand($series[$generoSelecionado])];
             echo "<p class='resposta'>Recomendamos a série de $generoSelecionado: <strong>$serieSorteada</strong></p>";
+    ?>
+
+    <form method='post' action=''>
+        <p class='resposta'>Avalie a série recomendada (de 1 a 5):</p>
+        <select name='avaliacao'>
+            <option value='1'>1</option>
+            <option value='2'>2</option>
+            <option value='3'>3</option>
+            <option value='4'>4</option>
+            <option value='5'>5</option>
+        </select>
+        <button type='submit' name='avaliar'>Avaliar</button>
+    </form>
+  
+
+    <?php
         }
     }
-    
-    ?> 
+
+    if (isset($_POST['avaliar'])) {
+        $avaliacao = $_POST['avaliacao'];
+
+        switch ($avaliacao) {
+            case '1':
+                echo "<p class='resposta'>Você deu uma avaliação de 1/5 para a série.</p>";
+                break;
+            case '2':
+                echo "<p class='resposta'>Você deu uma avaliação de 2/5 para a série.</p>";
+                break;
+            case '3':
+                echo "<p class='resposta'>Você deu uma avaliação de 3/5 para a série.</p>";
+                break;
+            case '4':
+                echo "<p class='resposta'>Você deu uma avaliação de 4/5 para a série.</p>";
+                break;
+            case '5':
+                echo "<p class='resposta'>Você deu uma avaliação de 5/5 para a série. Obrigado pela alta avaliação!</p>";
+                break;
+            default:
+                echo "<p class='resposta'>Opção de avaliação inválida.</p>";
+        }
+    }
+    ?>
+
       <footer>
           <p class="conhecer">Para conhecer os criadores, <a href="grupo.php" style="color: white; text-decoration: none;">clique aqui</a>.</p>
       </footer>

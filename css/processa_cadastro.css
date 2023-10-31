@@ -1,23 +1,29 @@
-     body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-        margin: 0;
-        background-color: #d01616;
-        background-image: url("../imagem/fundo.jpg");
-        background-repeat: no-repeat;
-        width: 100%;
-        background-size: cover;
-        font-family: 'Roboto Slab', sans-serif;
-        font-weight: 300;
-        color: white;
-    }
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
 
-    .message-container {
-        background-color: rgba(255, 255, 255, 0.8);
-        padding: 20px;
-        border-radius: 10px;
-        text-align: center;
-        color: #000000;
-    }
+.netflix {
+    width: 600px;
+    height: 400px;
+  align-items: center;
+}
+.message-container {
+  color: white;
+}
+
+#start-button {
+    padding: 32px 64px;
+    font-size: 32px;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #e10b17; 
+    transition: background-color 0.3s;
+}
