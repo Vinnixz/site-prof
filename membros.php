@@ -100,8 +100,9 @@
               div class="login-container": Contém um formulário de cadastro com campos para e-mail, senha, confirmação de senha, declaração de idade e seleção de gênero.<br>
               footer: Estliza o rodapé da páina.<br>
               h1: Título "Recomendar Série".<br>
-              form: Permite ao usuário selecionar um gênero de série e, ao clicar em "Recomendar", gera uma recomendação na página.<br>
-            <br></li>
+              form: Permite ao usuário selecionar um gênero de série e, ao clicar em "Recomendar", gera uma recomendação na página.
+            <br>< label for:"senha">Senha (senha123):label: Rótulo para o campo de entrada de senha.<br> < label for=:"confirmar-senha">Confirme a senha:label>: Rótulo para o campo de confirmação de senha.<br><  label  for:genero>Gênero:label>: Rótulo para um menu suspenso (dropdown) de seleção de gênero.<br> < select id:genero name:genero>: Elemento de seleção com o id "genero" e o atributo "name" definido como "genero".<br>
+            </li>
         </ul>
   </div>
 <footer>
